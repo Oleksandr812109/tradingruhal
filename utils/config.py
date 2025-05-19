@@ -21,10 +21,8 @@ class AppConfigSchema(BaseModel):
     # Приклад схеми. Додайте свої поля!
     api_key: Optional[str]
     api_secret: Optional[str]
-    trading:
-        Optional[dict]
-    logging:
-        Optional[dict]
+    trading: Optional[dict]
+    logging: Optional[dict]
 
 def deep_update(original: dict, overrides: dict) -> dict:
     """Рекурсивно оновлює словник original значеннями з overrides."""
