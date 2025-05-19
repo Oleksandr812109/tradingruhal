@@ -1,0 +1,126 @@
+version: "3.9"
+
+x-logging-default: &logging-default
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+x-resources-default: &resources-default
+  cpus: "1.00"
+  memory: "512M"
+
+x-healthcheck-default: &healthcheck-default
+  test: ["CMD-SHELL", "python healthcheck.py"]
+  interval: 30s
+  timeout: 10s
+  retries: 4
+  start_period: 20s
+
+secrets:
+  binance_api_key:
+    file: ./secrets/binance_api_key.txt
+  binance_api_secret:
+    file: ./secrets/binance_api_secret.txt
+
+volumes:
+  trading_logs:
+  trading_state:
+
+networks:
+  tradingnet:
+    driver: bridge
+
+services:
+  tradingruhal:
+    image: tradingruhal:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PYTHON_VERSION: ${PYTHON_VERSION:-3.11}
+    container_name: tradingruhal
+    restart: on-failure:5
+    deploy:
+      resources:
+        limits:
+          cpus: "1.00"
+          memory: 1G
+        reservations:
+          cpus: "0.50"
+          memory: 256M
+    logging: *logging-default
+    healthcheck: *healthcheck-default
+    env_file:
+      - .env
+    environment:
+      TZ: ${TZ:-Europe/Kyiv}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      # BINANCE_API_KEY/SECRET будуть підставлені через secrets
+    secrets:
+      - source: binance_api_key
+        target: BINANCE_API_KEY
+      - source: binance_api_secret
+        target: BINANCE_API_SECRET
+    volumes:
+      - trading_logs:/app/logs
+      - trading_state:/app/state
+    networks:
+      - tradingnet
+    depends_on:
+      - mlflow
+    profiles: ["default", "production"]
+    labels:
+      com.tradingruhal.service: "main"
+      com.tradingruhal.environment: "${ENVIRONMENT:-development}"
+      com.tradingruhal.maintainer: "Oleksandr812109"
+      com.tradingruhal.docs: "https://github.com/Oleksandr812109/tradingruhal"
+  
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.0.1
+    container_name: mlflow
+    restart: unless-stopped
+    logging: *logging-default
+    environment:
+      - MLFLOW_TRACKING_URI=http://0.0.0.0:5000
+      - TZ=${TZ:-Europe/Kyiv}
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+    networks:
+      - tradingnet
+    profiles: ["default", "production"]
+    labels:
+      com.tradingruhal.service: "mlflow"
+      com.tradingruhal.maintainer: "Oleksandr812109"
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PYTHON_VERSION: ${PYTHON_VERSION:-3.11}
+    command: ["pytest", "tests/"]
+    networks:
+      - tradingnet
+    profiles: ["test"]
+    depends_on:
+      - tradingruhal
+    logging: *logging-default
+    environment:
+      TZ: ${TZ:-Europe/Kyiv}
+      ENVIRONMENT: test
+    labels:
+      com.tradingruhal.service: "tests"
+      com.tradingruhal.environment: "test"
+
+# === Приклади використання профілів ===
+# docker compose --profile production up      # Production environment
+# docker compose --profile test up           # Only for tests
+
+# === Додаткові зауваження ===
+# - Для секретів створіть папку ./secrets і покладіть туди файли з ключами.
+# - Використовуйте .env для не-чутливих змінних.
+# - Для різних оточень використовуйте змінні середовища і профілі.
+# - healthcheck.py має містити специфічну логіку (наприклад, перевірку доступу до Binance API).

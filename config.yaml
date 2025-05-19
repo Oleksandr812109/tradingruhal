@@ -1,0 +1,106 @@
+# ===========================
+# Конфігураційний файл для tradingruhal
+# Версія: 1.0.0
+# ===========================
+# Важливо: Чутливі дані (API ключі тощо) мають зберігатися у .env або механізмах секретів CI/CD!
+# Для зручності валидації використовуйте pydantic, cerberus або аналогічні бібліотеки.
+# Підтримується спадковість налаштувань для різних середовищ (див. секцію environments).
+
+version: 1.0.0
+
+# ===========================
+# [environments]
+# ===========================
+environments:
+  default:
+    general:
+      environment: development                # (str) Поточне оточення: development, production, test
+
+    binance:
+      # API ключі повинні зчитуватись з ENV!
+      api.key: ${BINANCE_API_KEY}             # (str, env) Ключ Binance API
+      api.secret: ${BINANCE_API_SECRET}       # (str, env) Секрет Binance API
+      api.url: "https://api.binance.com"      # (str) Основний URL Binance API
+      # Для тестнету: "https://testnet.binance.vision"
+
+    logging:
+      level: INFO                             # (str, default=INFO) DEBUG, INFO, WARNING, ERROR, CRITICAL
+      log_to_file: true                       # (bool, default=true)
+      filename: "logs/app.log"                # (str, default="logs/app.log")
+
+    mlflow:
+      enabled: false                          # (bool, default=false)
+      tracking_uri: "http://localhost:5000"   # (str, default="http://localhost:5000")
+
+    proxy:
+      use_proxy: false                        # (bool, default=false)
+      http: ""                                # (str, optional) HTTP proxy URL
+      https: ""                               # (str, optional) HTTPS proxy URL
+      # Приклад проксі з аутентифікацією:
+      # http: "http://user:password@127.0.0.1:8080"
+
+    newsapi:
+      enabled: false                          # (bool, default=false)
+      api.key: ${NEWSAPI_KEY}                 # (str, env, optional)
+
+    trading:
+      # Складний список символів із додатковими параметрами для розширення гнучкості
+      symbols:
+        - name: BTCUSDT
+          risk_level: high
+          enabled: true
+        - name: ETHUSDT
+          risk_level: medium
+          enabled: true
+      amount: 0.01                            # (float, одиниця: базова валюта, default=0.01)
+      max_positions: 3                        # (int, default=3) Максимум відкритих позицій
+
+    strategy:
+      id: "default_strategy"                  # (str, default="default_strategy")
+      thresholds:
+        BTCUSDT:
+          buy: 0.7                            # (float, default=0.7)
+          sell: 0.3                           # (float, default=0.3)
+        ETHUSDT:
+          buy: 0.65
+          sell: 0.35
+        default:
+          buy: 0.6
+          sell: 0.4
+
+    other:
+      timezone: "Europe/Kyiv"                 # (str, default="Europe/Kyiv")
+      random_seed: 42                         # (int, default=42)
+
+  # --- Приклад для оточення production ---
+  production:
+    <<: *default
+    general:
+      environment: production
+    binance:
+      api.url: "https://api.binance.com"
+    logging:
+      level: WARNING
+    trading:
+      amount: 0.05
+
+  # --- Приклад для test ---
+  test:
+    <<: *default
+    general:
+      environment: test
+    binance:
+      api.url: "https://testnet.binance.vision"
+    trading:
+      amount: 0.001
+
+# ===========================
+# Коментарі щодо складної конфігурації:
+# - Для складних випадків ви можете розбити конфіг на кілька файлів (наприклад, config_binance.yaml, config_logging.yaml).
+# - Використовуйте .env для секретів і підставляйте їх через ${VAR_NAME} (python-dotenv).
+# - Для валідації структури використовуйте pydantic або cerberus.
+# - Уніфікуйте параметри за допомогою крапок (binance.api.key).
+# - Для складних стратегій додайте додаткові поля до trading.symbols або strategy.
+# - Всі булеві значення як true/false.
+# - Одиниці вимірювання та дефолтні значення зазначені в коментарях.
+# ===========================
