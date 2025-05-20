@@ -1,5 +1,5 @@
 import logging
-from typing import Optional, Dict, Any, Callable
+from typing import Optional, Dict, Any
 import asyncio
 from queue import Queue
 import threading
@@ -10,7 +10,8 @@ try:
     from telegram import Bot
     from telegram.error import TelegramError, NetworkError, Unauthorized, BadRequest
     from telegram.constants import ParseMode
-except ImportError:
+except ImportError as e:
+    print("Telegram import error:", e)
     Bot = None
     TelegramError = Exception
     NetworkError = Exception
@@ -21,7 +22,6 @@ except ImportError:
 try:
     from tenacity import retry, stop_after_attempt, wait_exponential, RetryError
 except ImportError:
-    # Dummy decorator if tenacity is not installed
     def retry(*args, **kwargs):
         def decorator(f):
             return f
@@ -68,12 +68,11 @@ class TelegramNotifier:
     def _init_bot(self):
         if Bot is None:
             raise ImportError("Встановіть бібліотеку python-telegram-bot")
-        # Проксі підтримка (через request_kwargs)
+        # PTB 20+ не має telegram.request.Request!
         if self.proxy_url:
-            from telegram.request import Request
-            return Bot(token=self.token, request=Request(proxy_url=self.proxy_url))
-        else:
-            return Bot(token=self.token)
+            os.environ["HTTP_PROXY"] = self.proxy_url
+            os.environ["HTTPS_PROXY"] = self.proxy_url
+        return Bot(token=self.token)
 
     def _start_queue_worker(self):
         if self._queue_thread and self._queue_thread.is_alive():
@@ -107,24 +106,29 @@ class TelegramNotifier:
     ):
         """
         Синхронно надсилає повідомлення у Telegram.
-
-        Args:
-            text (str): Текст повідомлення.
-            parse_mode (str): ParseMode.HTML, ParseMode.MARKDOWN, тощо.
-            disable_notification (bool): Відправити без сповіщення.
-            reply_markup: Інлайн-клавіатура або кнопки.
-            **kwargs: Додаткові параметри для send_message.
         """
         self.logger.debug(f"Sending message: {text}")
         try:
-            result = self.bot.send_message(
-                chat_id=self.chat_id,
-                text=text,
-                parse_mode=parse_mode,
-                disable_notification=disable_notification,
-                reply_markup=reply_markup,
-                **kwargs
-            )
+            # Для PTB >= 20 send_message асинхронний, але для зворотної сумісності залишаємо варіант через loop
+            if hasattr(self.bot, "send_message") and asyncio.iscoroutinefunction(self.bot.send_message):
+                loop = asyncio.get_event_loop()
+                result = loop.run_until_complete(self.bot.send_message(
+                    chat_id=self.chat_id,
+                    text=text,
+                    parse_mode=parse_mode,
+                    disable_notification=disable_notification,
+                    reply_markup=reply_markup,
+                    **kwargs
+                ))
+            else:
+                result = self.bot.send_message(
+                    chat_id=self.chat_id,
+                    text=text,
+                    parse_mode=parse_mode,
+                    disable_notification=disable_notification,
+                    reply_markup=reply_markup,
+                    **kwargs
+                )
             self.logger.info("Telegram: повідомлення надіслано (sync)")
             return result
         except (Unauthorized, BadRequest) as e:
@@ -150,26 +154,29 @@ class TelegramNotifier:
     ):
         """
         Асинхронно надсилає повідомлення у Telegram.
-
-        Args:
-            text (str): Текст повідомлення.
-            parse_mode (str): ParseMode.HTML, ParseMode.MARKDOWN, тощо.
-            disable_notification (bool): Відправити без сповіщення.
-            reply_markup: Інлайн-клавіатура або кнопки.
-            **kwargs: Додаткові параметри для send_message.
         """
         self.logger.debug(f"Sending async message: {text}")
         try:
-            loop = asyncio.get_event_loop()
-            result = await loop.run_in_executor(
-                None,
-                self.send_message,
-                text,
-                parse_mode,
-                disable_notification,
-                reply_markup,
-                **kwargs
-            )
+            if hasattr(self.bot, "send_message") and asyncio.iscoroutinefunction(self.bot.send_message):
+                result = await self.bot.send_message(
+                    chat_id=self.chat_id,
+                    text=text,
+                    parse_mode=parse_mode,
+                    disable_notification=disable_notification,
+                    reply_markup=reply_markup,
+                    **kwargs
+                )
+            else:
+                loop = asyncio.get_event_loop()
+                result = await loop.run_in_executor(
+                    None,
+                    self.send_message,
+                    text,
+                    parse_mode,
+                    disable_notification,
+                    reply_markup,
+                    **kwargs
+                )
             self.logger.info("Telegram: повідомлення надіслано (async)")
             return result
         except Exception as e:
@@ -186,12 +193,6 @@ class TelegramNotifier:
     ):
         """
         Додає повідомлення у чергу для надсилання із rate limit.
-
-        Args:
-            text (str): Текст повідомлення.
-            parse_mode (str): Форматування.
-            disable_notification (bool): Без сигналу.
-            reply_markup: Кнопки.
         """
         if not self.queue_enabled:
             raise RuntimeError("Queue is not enabled for TelegramNotifier.")
@@ -207,12 +208,6 @@ class TelegramNotifier:
     def format_message(self, template: str, params: Dict[str, Any]) -> str:
         """
         Формує складне повідомлення за шаблоном.
-
-        Args:
-            template (str): Шаблон (наприклад, f-string).
-            params (dict): Дані для підстановки.
-        Returns:
-            str: Готовий текст повідомлення.
         """
         try:
             return template.format(**params)
@@ -220,14 +215,9 @@ class TelegramNotifier:
             self.logger.warning(f"Message formatting failed: {e}")
             return template
 
-    # Приклад для кнопок
     def build_inline_keyboard(self, buttons: list) -> Any:
         """
-        Генерує інлайн-клавіатуру (для advanced форматування).
-        Args:
-            buttons (list): Список списків кнопок (text, callback_data).
-        Returns:
-            InlineKeyboardMarkup або None.
+        Генерує інлайн-клавіатуру.
         """
         try:
             from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -240,7 +230,6 @@ class TelegramNotifier:
             self.logger.warning(f"Keyboard creation failed: {e}")
             return None
 
-    # Метод для обробки інших типів оновлень (наприклад, edit_message_text)
     @retry(
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=1, max=5),
@@ -256,22 +245,27 @@ class TelegramNotifier:
     ):
         """
         Редагує повідомлення у Telegram за message_id.
-
-        Args:
-            message_id (int): ID повідомлення.
-            text (str): Новий текст.
-            parse_mode (str): Форматування.
-            reply_markup: Клавіатура.
         """
         try:
-            result = self.bot.edit_message_text(
-                chat_id=self.chat_id,
-                message_id=message_id,
-                text=text,
-                parse_mode=parse_mode,
-                reply_markup=reply_markup,
-                **kwargs
-            )
+            if hasattr(self.bot, "edit_message_text") and asyncio.iscoroutinefunction(self.bot.edit_message_text):
+                loop = asyncio.get_event_loop()
+                result = loop.run_until_complete(self.bot.edit_message_text(
+                    chat_id=self.chat_id,
+                    message_id=message_id,
+                    text=text,
+                    parse_mode=parse_mode,
+                    reply_markup=reply_markup,
+                    **kwargs
+                ))
+            else:
+                result = self.bot.edit_message_text(
+                    chat_id=self.chat_id,
+                    message_id=message_id,
+                    text=text,
+                    parse_mode=parse_mode,
+                    reply_markup=reply_markup,
+                    **kwargs
+                )
             self.logger.debug(f"Message {message_id} edited.")
             return result
         except TelegramError as e:
