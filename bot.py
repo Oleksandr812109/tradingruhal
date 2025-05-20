@@ -2,7 +2,7 @@ import os
 import asyncio
 import logging
 
-from config import load_config
+from utils.config import load_config
 from analysis.signal_generator import SignalGenerator
 from services.telegram_notifier import TelegramNotifier
 

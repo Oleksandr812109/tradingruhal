@@ -43,6 +43,11 @@ environments:
       enabled: false                          # (bool, default=false)
       api.key: ${NEWSAPI_KEY}                 # (str, env, optional)
 
+    telegram:
+      token: ${TELEGRAM_TOKEN}                # (str, env) Токен Telegram-бота
+      chat_id: ${TELEGRAM_CHAT_ID}            # (str, env) ID чату або користувача
+      # proxy_url: ${TELEGRAM_PROXY_URL}      # (str, env, optional) Проксі для Telegram (якщо потрібно)
+
     trading:
       # Складний список символів із додатковими параметрами для розширення гнучкості
       symbols:

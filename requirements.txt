@@ -6,27 +6,33 @@ aiohttp
 # Парсинг HTML
 beautifulsoup4
 
-# Парсинг RSS (опціонально, для новин)
+# Парсинг RSS (опційонально, для новин)
 feedparser
 
 # Наукові обчислення, робота з даними (AI/ML)
 numpy
 pandas
 
-# Логування ML-експериментів (опціонально)
+# Логування ML-експериментів (опційонально)
 mlflow
 
-# Завантаження змінних середовища з .env (опціонально, для зручності)
+# Завантаження змінних середовища з .env (зручно для налаштувань)
 python-dotenv
 
 # YAML-конфіги
 pyyaml
 
-# Для типізації (Python >=3.8, але Protocol і runtime_checkable можуть бути потрібні з typing-extensions)
+# Для типізації (Python >=3.8, Protocol і runtime_checkable можуть бути потрібні з typing-extensions)
 typing-extensions
 
-# Якщо використовуєте розширені функції (наприклад, FastAPI, Flask, Binance API тощо),
-# додайте їх нижче.
+# Інтеграція з Telegram
+python-telegram-bot
 
-# Для інтеграції з Binance API (опціонально, якщо буде підключено)
-# python-binance
+# Декоратор для повторних спроб (якщо використовується у notifier)
+tenacity
+
+# Pydantic для валідації конфігурації (якщо використовується у utils/config.py)
+pydantic
+
+# Для інтеграції з Binance API (опційонально, якщо буде підключено)
+python-binance
