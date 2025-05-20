@@ -68,7 +68,6 @@ class TelegramNotifier:
     def _init_bot(self):
         if Bot is None:
             raise ImportError("Встановіть бібліотеку python-telegram-bot")
-        # PTB 20+ не має telegram.request.Request!
         if self.proxy_url:
             os.environ["HTTP_PROXY"] = self.proxy_url
             os.environ["HTTPS_PROXY"] = self.proxy_url
