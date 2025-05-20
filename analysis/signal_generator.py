@@ -68,17 +68,10 @@ class SignalGenerator:
     def _get_thresholds(self, symbol: str) -> Dict[str, float]:
         return self.thresholds.get(symbol, self.thresholds.get("default", {"buy": 0.7, "sell": 0.3}))
 
-    def _ensemble_score(self, market_data: Dict[str, Any]) -> float:
-        scores = []
-        for model in self.models:
-            try:
-                score = model.predict(market_data)
-                self.logger.debug(f"Model {getattr(model, 'model_id', None)} predicted: {score}")
-                scores.append(score)
-            except Exception as e:
-                self.logger.warning(f"Error in model.predict: {e}")
-        if not scores:
-            return 0.5
+    def _ensemble_score(self, market_data):
+        scores = [model.predict(market_data) for model in self.models]
+        # Якщо predict повертає список — беремо перший елемент, або підлаштуйте під ваш кейс
+        scores = [score[0] if isinstance(score, list) else score for score in scores]
         return sum(scores) / len(scores)
 
     def generate_signal(self, market_data: Dict[str, Any]) -> Dict[str, Any]:

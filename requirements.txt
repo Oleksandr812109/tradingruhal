@@ -1,0 +1,32 @@
+# Основні бібліотеки для роботи проєкту tradingruhal
+
+# Асинхронні HTTP-запити
+aiohttp
+
+# Парсинг HTML
+beautifulsoup4
+
+# Парсинг RSS (опціонально, для новин)
+feedparser
+
+# Наукові обчислення, робота з даними (AI/ML)
+numpy
+pandas
+
+# Логування ML-експериментів (опціонально)
+mlflow
+
+# Завантаження змінних середовища з .env (опціонально, для зручності)
+python-dotenv
+
+# YAML-конфіги
+pyyaml
+
+# Для типізації (Python >=3.8, але Protocol і runtime_checkable можуть бути потрібні з typing-extensions)
+typing-extensions
+
+# Якщо використовуєте розширені функції (наприклад, FastAPI, Flask, Binance API тощо),
+# додайте їх нижче.
+
+# Для інтеграції з Binance API (опціонально, якщо буде підключено)
+# python-binance

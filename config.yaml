@@ -12,7 +12,7 @@ version: 1.0.0
 # [environments]
 # ===========================
 environments:
-  default:
+  default: &default
     general:
       environment: development                # (str) Поточне оточення: development, production, test
 

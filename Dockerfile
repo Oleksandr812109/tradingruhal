@@ -64,4 +64,4 @@ HEALTHCHECK --interval=1m --timeout=10s --start-period=10s --retries=3 \
 
 # Інформативна команда запуску
 # Змініть на свій основний скрипт або менеджер процесів (uvicorn, gunicorn тощо)
-CMD ["python", "main.py"]
+CMD ["python", "bot.py"]
