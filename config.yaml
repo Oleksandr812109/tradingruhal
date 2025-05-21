@@ -77,6 +77,17 @@ environments:
       timezone: "Europe/Kyiv"                 # (str, default="Europe/Kyiv")
       random_seed: 42                         # (int, default=42)
 
+    news_sources:
+      - name: CoinDesk
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        type: rss
+      - name: Decrypt
+        url: "https://decrypt.co/feed"
+        type: rss
+      - name: Bitcoin Magazine
+        url: "https://bitcoinmagazine.com/.rss/full/"
+        type: rss
+
   # --- Приклад для оточення production ---
   production:
     <<: *default

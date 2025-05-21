@@ -2,7 +2,7 @@ import os
 import json
 import yaml
 from pathlib import Path
-from typing import Any, Dict, Optional, Union
+from typing import Any, Dict, Optional, Union, List
 from functools import lru_cache
 from dotenv import load_dotenv
 
@@ -99,4 +99,20 @@ class Config:
 
 def load_config(config_path: str = "config.yaml", env: str = None):
     cfg = Config(config_path)
-    return cfg.data
+    # Витягуємо потрібне середовище
+    data = cfg.data
+    environments = data.get("environments", {})
+    # Визначаємо, яке середовище використовувати
+    env_name = env or os.environ.get("ENVIRONMENT", "default")
+    env_config = environments.get(env_name, environments.get("default", {}))
+    # Для простоти підвантажуємо news_sources саме з цього середовища (default, production, test)
+    data_flat = {}
+    data_flat.update(env_config)
+    return data_flat
+
+def get_news_sources(config_path: str = "config.yaml", env: str = None) -> List[Dict[str, Any]]:
+    """
+    Повертає список джерел новин з відповідного середовища в config.yaml
+    """
+    config = load_config(config_path, env)
+    return config.get("news_sources", [])
