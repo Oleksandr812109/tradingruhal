@@ -1,10 +1,15 @@
 import os
 import asyncio
 import logging
-
+from dotenv import load_dotenv
+load_dotenv()
 from utils.config import load_config
 from analysis.signal_generator import SignalGenerator
 from services.telegram_notifier import TelegramNotifier
+
+# Додаткові імпорти за необхідності
+
+load_dotenv()  # <-- ДОДАТИ ОБОВʼЯЗКОВО перед load_config()
 
 # Додаткові імпорти за необхідності
 
