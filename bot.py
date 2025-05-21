@@ -32,7 +32,14 @@ async def main():
     notifier = TelegramNotifier(telegram_cfg)
     # --------------------------------------------
 
-    signal_generator = SignalGenerator(config)
+    # Витягуємо ключі для SignalGenerator (уникаємо передачі config напряму)
+    signal_generator = SignalGenerator(
+        models=[],  # додайте свої моделі, якщо є
+        thresholds=config.get("thresholds"),
+        simple_strategy=None,  # або ваша стратегія, якщо є
+        strategy_id=config.get("strategy_id"),
+        logger=logger,
+    )
 
     # Приклад циклу для декількох символів
     market_data_list = [
@@ -48,7 +55,7 @@ async def main():
         # market_data = fetch_market_data(...)
 
         # Генерація сигналу
-        signal = signal_generator.generate_signal(market_data, state_before=state)
+        signal = signal_generator.generate_signal(market_data)
 
         logger.info(f"Signal for {market_data['symbol']}: {signal}")
 
