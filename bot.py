@@ -67,7 +67,7 @@ async def main():
             f"Час: {signal.get('generated_at')}"
         )
         try:
-            notifier.send_message(msg)
+            await notifier.send_message(msg)
         except Exception as e:
             logger.error(f"Не вдалося надіслати сигнал у Telegram: {e}")
         # ------------------------------------------------
