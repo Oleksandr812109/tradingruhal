@@ -45,7 +45,7 @@ class TelegramNotifier:
         if self.proxy_url:
             os.environ["HTTP_PROXY"] = self.proxy_url
             os.environ["HTTPS_PROXY"] = self.proxy_url
-        return Bot(token=self.token, parse_mode=ParseMode.HTML if ParseMode else None)
+        return Bot(token=self.token)
 
     async def send_message(
         self,
@@ -63,7 +63,7 @@ class TelegramNotifier:
             result = await self.bot.send_message(
                 chat_id=self.chat_id,
                 text=text,
-                parse_mode=parse_mode,
+                parse_mode=parse_mode or (ParseMode.HTML if ParseMode else None),
                 disable_notification=disable_notification,
                 reply_markup=reply_markup,
                 **kwargs
