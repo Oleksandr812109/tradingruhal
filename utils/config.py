@@ -5,8 +5,23 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Union, List
 from functools import lru_cache
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
+
+def interpolate_env_vars(obj):
+    if isinstance(obj, dict):
+        return {k: interpolate_env_vars(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [interpolate_env_vars(i) for i in obj]
+    elif isinstance(obj, str):
+        pattern = re.compile(r'\$\{([^}^{]+)\}')
+        match = pattern.findall(obj)
+        for g in match:
+            obj = obj.replace(f'${{{g}}}', os.environ.get(g, f'${{{g}}}'))
+        return obj
+    else:
+        return obj
 
 class ConfigFileNotFound(Exception):
     pass
@@ -48,6 +63,7 @@ class YamlConfig(BaseConfig):
         try:
             with open(self.path, "r", encoding="utf-8") as f:
                 raw_data = yaml.safe_load(f) or {}
+                raw_data = interpolate_env_vars(raw_data)  # Підстановка змінних оточення!
         except yaml.YAMLError as e:
             raise ConfigValidationError(f"YAML error: {str(e)}")
         return raw_data
