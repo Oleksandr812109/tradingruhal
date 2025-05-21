@@ -1,62 +1,26 @@
+from typing import Any, Dict, List, Optional
 import logging
-from typing import Any, Dict, List, Optional, Callable, Union, Protocol, runtime_checkable
-from datetime import datetime
-from enum import Enum, auto
 
-@runtime_checkable
-class ModelProtocol(Protocol):
-    """
-    Протокол для AI/ML моделей, що використовуються у генераторі сигналів.
-    """
-    model_id: str
-    model_params: Dict[str, Any]
-
-    def predict(self, market_data: Dict[str, Any]) -> float:
-        ...
-
-
-class SignalAction(Enum):
-    BUY = "buy"
-    SELL = "sell"
-    HOLD = "hold"
-    BUY_LIMIT = "buy_limit"
-    SELL_MARKET = "sell_market"
-    CLOSE_POSITION = "close_position"
-    # додайте інші типи сигналів за потребою
-
+# Додаємо імпорт sentiment-аналітика
+from analysis.news_sentiment_analyzer import NewsSentimentAnalyzer
 
 class SignalGenerator:
-    """
-    Клас для генерації торгових сигналів на основі ринкових даних, AI/ML моделей, або кастомних стратегій.
-    Підтримує:
-    - Гнучкі пороги для різних символів/стратегій
-    - Комбінування кількох моделей (в ensemble-режимі)
-    - Збереження стану для складних стратегій
-    - Докладне логування та обробку винятків
-    """
-
     def __init__(
-        self,
-        models: Optional[List[ModelProtocol]] = None,
+        self, 
+        models: Optional[List[Any]] = None,
         thresholds: Optional[Dict[str, Dict[str, float]]] = None,
-        simple_strategy: Optional[Callable[[Dict[str, Any]], Dict[str, Any]]] = None,
+        simple_strategy: Optional[Any] = None,
         strategy_id: Optional[str] = None,
-        logger: Optional[logging.Logger] = None
+        logger: Optional[logging.Logger] = None,
+        news_sentiment_analyzer: Optional[NewsSentimentAnalyzer] = None
     ):
-        """
-        Args:
-            models: список моделей, кожна з яких має метод predict(market_data) -> float
-            thresholds: словник порогів для кожного символу {'BTCUSDT': {'buy': 0.7, 'sell': 0.3}, ...}
-            simple_strategy: функція, що генерує сигнал при відсутності моделей
-            strategy_id: ідентифікатор стратегії (для метаданих)
-            logger: logger для логування
-        """
         self.models = models or []
         self.thresholds = thresholds or {"default": {"buy": 0.7, "sell": 0.3}}
         self.simple_strategy = simple_strategy
         self.strategy_id = strategy_id or "default_strategy"
         self.logger = logger or logging.getLogger(self.__class__.__name__)
         self.state: Dict[str, Any] = {}
+        self.news_sentiment_analyzer = news_sentiment_analyzer  # новий параметр для інтеграції
 
         self._validate_thresholds()
 
@@ -70,18 +34,10 @@ class SignalGenerator:
 
     def _ensemble_score(self, market_data):
         scores = [model.predict(market_data) for model in self.models]
-        # Якщо predict повертає список — беремо перший елемент, або підлаштуйте під ваш кейс
         scores = [score[0] if isinstance(score, list) else score for score in scores]
         return sum(scores) / len(scores)
 
     def generate_signal(self, market_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Генерує торговий сигнал на основі ринкових даних. Додає метадані, логування, обробку винятків, підтримує різні типи сигналів та стратегії.
-        Args:
-            market_data: Словник із ринковими даними (має містити 'symbol', 'timeframe' за можливості)
-        Returns:
-            signal: {'action': ..., 'confidence': ..., 'meta': ...}
-        """
         self.logger.debug(f"generate_signal called with market_data: {market_data}")
 
         symbol = market_data.get("symbol", "default")
@@ -91,7 +47,6 @@ class SignalGenerator:
         thresholds = self._get_thresholds(symbol)
         params_used["thresholds"] = thresholds
 
-        # Score визначається моделями або стратегією
         if self.models:
             score = self._ensemble_score(market_data)
             params_used["model_ids"] = [getattr(m, "model_id", None) for m in self.models]
@@ -108,76 +63,49 @@ class SignalGenerator:
 
         self.logger.debug(f"Intermediate score: {score} for symbol: {symbol}")
 
-        # Визначення дії
-        action = SignalAction.HOLD
+        action = "hold"
         if score >= thresholds["buy"]:
-            action = SignalAction.BUY
+            action = "buy"
         elif score <= thresholds["sell"]:
-            action = SignalAction.SELL
+            action = "sell"
 
-        # Можна розширити правила для інших типів сигналів за бажанням
-        # Наприклад:
-        # if "close_signal" in market_data and market_data["close_signal"]:
-        #     action = SignalAction.CLOSE_POSITION
-
-        signal = {
-            "action": action.value,
-            "confidence": float(score),
-            "generated_at": datetime.utcnow().isoformat(),
+        return {
+            "action": action,
+            "confidence": score,
             "meta": {
                 "symbol": symbol,
-                "timeframe": timeframe,
-                "strategy_id": self.strategy_id,
                 "params_used": params_used,
-                "input_market_data": market_data,
-                "state_before": dict(self.state),  # копія стану перед оновленням
+                "generated_at": market_data.get("generated_at"),
             }
         }
 
-        # Оновлення стану (наприклад, для фіксації останнього сигналу)
-        self.state[symbol] = {
-            "last_signal": signal,
-            "last_score": score,
-            "last_updated": signal["generated_at"]
+    # === ДОДАНО: Генерація сигналу на основі новинного сентименту ===
+    def generate_signal_from_news(self, symbol: str, sentiment_score: float, meta: Optional[Dict] = None) -> dict:
+        """
+        Генерує сигнал на основі сентименту новин для заданого символу.
+        sentiment_score: float від -1 (негативний) до 1 (позитивний)
+        """
+        thresholds = self._get_thresholds(symbol)
+        params_used = {
+            "news_sentiment_score": sentiment_score,
+            "thresholds": thresholds
         }
+        action = "hold"
+        # Прості правила, ви можете налаштувати пороги:
+        if sentiment_score >= 0.2 or (sentiment_score >= thresholds.get("buy", 0.7)):
+            action = "buy"
+        elif sentiment_score <= -0.2 or (sentiment_score <= thresholds.get("sell", 0.3)):
+            action = "sell"
 
-        self.logger.info(
-            f"Generated signal: action={action}, confidence={score}, symbol={symbol}, meta={signal['meta']}"
-        )
-        self.logger.debug(f"Signal full details: {signal}")
+        self.logger.info(f"News-based signal for {symbol}: {action} (score={sentiment_score:.3f})")
 
-        return signal
-
-    def reset_state(self) -> None:
-        """
-        Очищає збережений стан генератора сигналів.
-        """
-        self.logger.info("Resetting signal generator state.")
-        self.state.clear()
-
-    def set_thresholds(self, symbol: str, buy: float, sell: float) -> None:
-        """
-        Оновлює пороги для конкретного символу.
-        """
-        self.thresholds[symbol] = {"buy": buy, "sell": sell}
-        self.logger.info(f"Thresholds for {symbol} updated: buy={buy}, sell={sell}")
-
-    def add_model(self, model: ModelProtocol) -> None:
-        """
-        Додає модель до списку моделей.
-        """
-        self.models.append(model)
-        self.logger.info(f"Model {getattr(model, 'model_id', None)} added.")
-
-    def remove_model(self, model_id: str) -> None:
-        """
-        Видаляє модель за model_id.
-        """
-        self.models = [m for m in self.models if getattr(m, "model_id", None) != model_id]
-        self.logger.info(f"Model {model_id} removed.")
-
-    def get_state(self) -> Dict[str, Any]:
-        """
-        Повертає поточний стан генератора сигналів.
-        """
-        return dict(self.state)
+        return {
+            "action": action,
+            "confidence": abs(sentiment_score),
+            "meta": {
+                "symbol": symbol,
+                "input": "news_sentiment",
+                "params_used": params_used,
+                "details": meta or {},
+            }
+        }

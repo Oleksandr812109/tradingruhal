@@ -1,88 +1,91 @@
-import os
 import asyncio
 import logging
-from dotenv import load_dotenv
-load_dotenv()
+
 from utils.config import load_config
 from analysis.signal_generator import SignalGenerator
+from analysis.news_scraper import NewsScraper
+from analysis.news_sentiment_analyzer import NewsSentimentAnalyzer
 from services.telegram_notifier import TelegramNotifier
-
-# Додаткові імпорти за необхідності
-
-load_dotenv()  # <-- ДОДАТИ ОБОВʼЯЗКОВО перед load_config()
-
-# Додаткові імпорти за необхідності
-
-def setup_logging(config):
-    log_cfg = config.get('logging', {})
-    filename = log_cfg.get('filename', 'logs/app.log')
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
-    logging.basicConfig(
-        level=log_cfg.get('level', 'INFO'),
-        format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
-        handlers=[
-            logging.FileHandler(filename),
-            logging.StreamHandler()
-        ]
-    )
 
 async def main():
     # Завантаження конфігурації
     config = load_config()
-    setup_logging(config)
     logger = logging.getLogger("BotMain")
-
-    # --- НОВЕ: Ініціалізація TelegramNotifier ---
-    telegram_cfg = config.get("telegram", {})
-    notifier = TelegramNotifier(telegram_cfg)
-    # --------------------------------------------
-
-    # Витягуємо ключі для SignalGenerator (уникаємо передачі config напряму)
-    signal_generator = SignalGenerator(
-        models=[],  # додайте свої моделі, якщо є
-        thresholds=config.get("thresholds"),
-        simple_strategy=None,  # або ваша стратегія, якщо є
-        strategy_id=config.get("strategy_id"),
-        logger=logger,
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s [%(levelname)s] %(name)s: %(message)s'
     )
 
-    # Приклад циклу для декількох символів
-    market_data_list = [
-        # Тут підставте свій реальний механізм отримання даних
-        {"symbol": "BTCUSDT", "timeframe": "1h"},
-        {"symbol": "ETHUSDT", "timeframe": "1h"},
-    ]
+    # Telegram notifier
+    telegram_cfg = config.get("telegram", {})
+    notifier = TelegramNotifier(telegram_cfg)
 
-    state = {}
+    # Символи та аліаси для аналізу (можна винести в конфіг)
+    tracked_symbols = [s["name"] for s in config.get("trading", {}).get("symbols", [])]
+    # Приклад аліасів для кращого знаходження згадок
+    symbol_aliases = {
+        "BTCUSDT": ["BTCUSDT", "BTC", "Bitcoin"],
+        "ETHUSDT": ["ETHUSDT", "ETH", "Ethereum"],
+        # Додайте інші символи та аліаси за потребою
+    }
 
-    for market_data in market_data_list:
-        # Додайте реальне отримання ринкових даних тут
-        # market_data = fetch_market_data(...)
+    # Ініціалізація news scraper та sentiment analyzer
+    news_scraper = NewsScraper(
+        sources=config.get("news_sources", []),
+        logger=logger
+    )
+    news_sentiment_analyzer = NewsSentimentAnalyzer(
+        symbol_aliases=symbol_aliases,
+        logger=logger
+    )
 
-        # Генерація сигналу
-        signal = signal_generator.generate_signal(market_data)
+    # Signal generator
+    signal_generator = SignalGenerator(
+        thresholds=config.get("strategy", {}).get("thresholds"),
+        logger=logger
+    )
 
-        logger.info(f"Signal for {market_data['symbol']}: {signal}")
-
-        # --- НОВЕ: Надсилання повідомлення в Telegram ---
-        msg = (
-            f"Сигнал: {signal['action'].upper()} {signal['meta']['symbol']} "
-            f"(confidence: {signal['confidence']:.2f})\n"
-            f"Параметри: {signal['meta'].get('params_used')}\n"
-            f"Час: {signal.get('generated_at')}"
-        )
+    # Основний цикл
+    while True:
         try:
-            await notifier.send_message(msg)
-        except Exception as e:
-            logger.error(f"Не вдалося надіслати сигнал у Telegram: {e}")
-        # ------------------------------------------------
+            # 1. Збір новин
+            news_list = await news_scraper.fetch_news(limit=50)
 
-        # Оновлення state, якщо потрібно
-        state[market_data['symbol']] = {
-            "last_signal": signal,
-            "last_score": signal.get("confidence", None),
-            "last_updated": signal.get("generated_at"),
-        }
+            # 2. Аналіз сентименту по новинах
+            sentiment_result = news_sentiment_analyzer.analyze_news(news_list, lookback_hours=3)
+
+            # 3. Генерація і надсилання сигналів
+            for symbol, sentiment_data in sentiment_result.items():
+                sentiment_score = sentiment_data["sentiment"]
+                if sentiment_score is None:
+                    logger.info(f"Для {symbol} недостатньо згадок у новинах для аналізу.")
+                    continue
+                signal = signal_generator.generate_signal_from_news(
+                    symbol=symbol,
+                    sentiment_score=sentiment_score,
+                    meta={"news_details": sentiment_data["details"]}
+                )
+                msg = (
+                    f"Сигнал по {symbol} на основі новин: {signal['action'].upper()} "
+                    f"(sentiment: {sentiment_score:.2f}, mentions: {sentiment_data['mentions']})\n"
+                    f"Деталі: {signal['meta'].get('news_details', [])[:1]}"
+                )
+                try:
+                    await notifier.send_message(msg)
+                except Exception as e:
+                    logger.error(f"Не вдалося надіслати сигнал у Telegram: {e}")
+
+            # 4. (Опціонально) Генерація сигналів за ринковими даними
+            # market_data_list = ... (отримуйте дані з біржі)
+            # for market_data in market_data_list:
+            #     signal = signal_generator.generate_signal(market_data)
+            #     await notifier.send_message(...)
+
+        except Exception as exc:
+            logger.error(f"Помилка в основному циклі: {exc}")
+
+        # Затримка між ітераціями (наприклад, 5 хвилин)
+        await asyncio.sleep(300)
 
 if __name__ == "__main__":
     asyncio.run(main())
