@@ -6,6 +6,7 @@ from typing import List, Dict, Optional, Callable, Any, Union
 from bs4 import BeautifulSoup
 import time
 import functools
+from dateutil import parser as dateparser  # Додаємо універсальний парсер дат
 
 class NewsScraper:
     """
@@ -21,14 +22,6 @@ class NewsScraper:
         user_agent: str = "Mozilla/5.0 (compatible; NewsScraperBot/1.0)",
         cache_timeout: int = 300,
     ):
-        """
-        Args:
-            sources: список словників з параметрами джерела (name, url, type, parser, selector, ...).
-            logger: логер, якщо не вказано — створюється власний.
-            request_delay: затримка між HTTP-запитами (секунди).
-            user_agent: User-Agent для HTTP-запитів.
-            cache_timeout: час життя кешу (секунд).
-        """
         self.sources = sources
         self.logger = logger or logging.getLogger(self.__class__.__name__)
         self.request_delay = request_delay
@@ -45,11 +38,6 @@ class NewsScraper:
                 raise ValueError(f"Unknown source type for {source['name']}: {source['type']}")
 
     async def fetch_news(self, limit: int = 10) -> List[Dict[str, Any]]:
-        """
-        Асинхронно збирає новини з усіх джерел.
-        Returns:
-            Список новин у вигляді словників {'title', 'url', 'source', ...}
-        """
         cache_key = f"news_{limit}"
         now = time.time()
         if cache_key in self._cache:
@@ -72,9 +60,6 @@ class NewsScraper:
         return all_news
 
     async def _fetch_from_source(self, source: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
-        """
-        Асинхронно отримує новини з одного джерела (HTML/API/RSS).
-        """
         await asyncio.sleep(self.request_delay)  # Не перевантажуємо сервери
         typ = source["type"]
         if typ == "html":
@@ -88,9 +73,6 @@ class NewsScraper:
             return []
 
     async def _fetch_html(self, source: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
-        """
-        Отримує новини з HTML-сторінки (з кастомним CSS-селектором або парсером).
-        """
         url = source["url"]
         selector = source.get("selector", "a")
         parser_fn: Optional[Callable[[BeautifulSoup, int, Dict[str, Any]], List[Dict[str, Any]]]] = source.get("parser")
@@ -113,9 +95,6 @@ class NewsScraper:
     def _default_html_parser(
         self, soup: BeautifulSoup, limit: int, source: Dict[str, Any], selector: str
     ) -> List[Dict[str, Any]]:
-        """
-        Парсить новини за вказаним CSS-селектором. Витягує title, url, дату, опис (якщо можливо).
-        """
         base_url = source["url"]
         articles = soup.select(selector)[:limit]
         news = []
@@ -124,23 +103,26 @@ class NewsScraper:
             link = art.get("href")
             if not link or not title:
                 continue
-            # Обробка відносних URL
             link = urljoin(base_url, link)
             news_item = {"title": title, "url": link, "source": source["name"]}
-            # Додаткові поля (дата, опис)
             parent = art.parent
             desc = parent.find("p").get_text(strip=True) if parent and parent.find("p") else ""
             news_item["description"] = desc
-            # Дата (можливо у data-date або в сусідніх тегах)
             date = art.get("data-date") or parent.get("data-date") if parent else None
-            news_item["date"] = date
+            # Парсинг дати через dateutil
+            if date:
+                try:
+                    parsed_date = dateparser.parse(date)
+                    news_item["date"] = parsed_date.isoformat() if parsed_date else date
+                except Exception:
+                    self.logger.warning(f"Can't parse date: {date}")
+                    news_item["date"] = date
+            else:
+                news_item["date"] = None
             news.append(news_item)
         return news
 
     async def _fetch_api(self, source: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
-        """
-        Отримує новини через API (очікується JSON). Можна вказати власний парсер.
-        """
         url = source["url"]
         parser_fn: Optional[Callable[[Any, int, Dict[str, Any]], List[Dict[str, Any]]]] = source.get("parser")
         headers = {"User-Agent": self.user_agent}
@@ -158,9 +140,6 @@ class NewsScraper:
         return news
 
     def _default_api_parser(self, data: Any, limit: int, source: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """
-        Базовий парсер для API-джерел: шукає в data['articles'].
-        """
         articles = data.get("articles", [])[:limit]
         news = []
         for art in articles:
@@ -169,17 +148,23 @@ class NewsScraper:
                 "url": art.get("url"),
                 "source": source["name"],
                 "description": art.get("description"),
-                "date": art.get("publishedAt"),
                 "author": art.get("author"),
             }
+            date = art.get("publishedAt")
+            if date:
+                try:
+                    parsed_date = dateparser.parse(date)
+                    news_item["date"] = parsed_date.isoformat() if parsed_date else date
+                except Exception:
+                    self.logger.warning(f"Can't parse date: {date}")
+                    news_item["date"] = date
+            else:
+                news_item["date"] = None
             if news_item["title"] and news_item["url"]:
                 news.append(news_item)
         return news
 
     async def _fetch_rss(self, source: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
-        """
-        Парсить RSS/Atom стрічки (використовує feedparser, якщо встановлено).
-        """
         try:
             import feedparser
         except ImportError:
@@ -197,57 +182,39 @@ class NewsScraper:
                 entries = feed.entries[:limit]
                 news = []
                 for entry in entries:
+                    date = entry.get("published", "") or ""
                     news_item = {
                         "title": entry.get("title"),
                         "url": entry.get("link"),
                         "source": source["name"],
                         "description": entry.get("summary", ""),
-                        "date": entry.get("published", ""),
                         "author": entry.get("author", ""),
                     }
+                    # Парсинг дати через dateutil
+                    if date:
+                        try:
+                            parsed_date = dateparser.parse(date)
+                            news_item["date"] = parsed_date.isoformat() if parsed_date else date
+                        except Exception:
+                            self.logger.warning(f"Can't parse date: {date}")
+                            news_item["date"] = date
+                    else:
+                        news_item["date"] = None
                     if news_item["title"] and news_item["url"]:
                         news.append(news_item)
                 return news
 
     def clear_cache(self):
-        """Очищає кеш новин"""
         self._cache.clear()
 
     @staticmethod
     def example_source_html():
-        """
-        Приклад конфігурації джерела для HTML:
-        {
-            "name": "Example",
-            "url": "https://example.com/news",
-            "type": "html",
-            "selector": "div.article a.headline",  # CSS selector
-            # "parser": custom_parser_fn,  # (soup, limit, source) -> List[Dict]
-        }
-        """
         pass
 
     @staticmethod
     def example_source_api():
-        """
-        Приклад конфігурації джерела для API:
-        {
-            "name": "Some News API",
-            "url": "https://api.example.com/news",
-            "type": "api",
-            # "parser": custom_api_parser_fn,  # (data, limit, source) -> List[Dict]
-        }
-        """
         pass
 
     @staticmethod
     def example_source_rss():
-        """
-        Приклад конфігурації джерела для RSS:
-        {
-            "name": "Some RSS",
-            "url": "https://example.com/rss.xml",
-            "type": "rss"
-        }
-        """
         pass

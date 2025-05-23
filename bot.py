@@ -1,91 +1,81 @@
 import asyncio
 import logging
-
-from utils.config import load_config
-from analysis.signal_generator import SignalGenerator
 from analysis.news_scraper import NewsScraper
 from analysis.news_sentiment_analyzer import NewsSentimentAnalyzer
 from services.telegram_notifier import TelegramNotifier
 
+
+# === КОНФІГУРАЦІЯ ===
+
+SENTIMENT_THRESHOLD = 1.5
+NEWS_LIMIT = 50
+NEWS_INTERVAL_SECONDS = 1800  # 30 хвилин
+
+# Приклад: додайте/змініть символи і синоніми на свої (для повної гнучкості!)
+SYMBOL_ALIASES = {
+    "BTCUSDT": ["BTC", "BTCUSDT", "Bitcoin"],
+    "ETHUSDT": ["ETH", "ETHUSDT", "Ethereum"],
+    "BNBUSDT": ["BNB", "BNBUSDT"],
+    "SOLUSDT": ["SOL", "SOLUSDT", "Solana"],
+    "DOGEUSDT": ["DOGE", "DOGEUSDT", "Dogecoin"],
+    # Додайте більше якщо хочете
+}
+
+# Джерела новин (приклади, замініть своїми)
+NEWS_SOURCES = [
+    {
+        "name": "Coindesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "type": "rss"
+    },
+    {
+        "name": "Binance News",
+        "url": "https://www.binance.com/en/news/rss/all",
+        "type": "rss"
+    },
+    # Додайте більше джерел за потреби
+]
+
+# Телеграм токен і чат
+TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"  # наприклад, -1001234567890 для групи
+
+# === ОСНОВНИЙ ЦИКЛ ===
+
 async def main():
-    # Завантаження конфігурації
-    config = load_config()
-    logger = logging.getLogger("BotMain")
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
     )
+    logger = logging.getLogger("BotMain")
 
-    # Telegram notifier
-    telegram_cfg = config.get("telegram", {})
-    notifier = TelegramNotifier(telegram_cfg)
+    # Ініціалізація
+    news_scraper = NewsScraper(NEWS_SOURCES, logger=logger)
+    sentiment_analyzer = NewsSentimentAnalyzer(SYMBOL_ALIASES, logger=logger)
+    telegram = TelegramNotifier(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, logger=logger)
 
-    # Символи та аліаси для аналізу (можна винести в конфіг)
-    tracked_symbols = [s["name"] for s in config.get("trading", {}).get("symbols", [])]
-    # Приклад аліасів для кращого знаходження згадок
-    symbol_aliases = {
-        "BTCUSDT": ["BTCUSDT", "BTC", "Bitcoin"],
-        "ETHUSDT": ["ETHUSDT", "ETH", "Ethereum"],
-        # Додайте інші символи та аліаси за потребою
-    }
+    logger.info("Бот стартував. Аналіз новин кожні 30 хвилин.")
 
-    # Ініціалізація news scraper та sentiment analyzer
-    news_scraper = NewsScraper(
-        sources=config.get("news_sources", []),
-        logger=logger
-    )
-    news_sentiment_analyzer = NewsSentimentAnalyzer(
-        symbol_aliases=symbol_aliases,
-        logger=logger
-    )
-
-    # Signal generator
-    signal_generator = SignalGenerator(
-        thresholds=config.get("strategy", {}).get("thresholds"),
-        logger=logger
-    )
-
-    # Основний цикл
     while True:
         try:
-            # 1. Збір новин
-            news_list = await news_scraper.fetch_news(limit=50)
-
-            # 2. Аналіз сентименту по новинах
-            sentiment_result = news_sentiment_analyzer.analyze_news(news_list, lookback_hours=3)
-
-            # 3. Генерація і надсилання сигналів
-            for symbol, sentiment_data in sentiment_result.items():
-                sentiment_score = sentiment_data["sentiment"]
-                if sentiment_score is None:
-                    logger.info(f"Для {symbol} недостатньо згадок у новинах для аналізу.")
-                    continue
-                signal = signal_generator.generate_signal_from_news(
-                    symbol=symbol,
-                    sentiment_score=sentiment_score,
-                    meta={"news_details": sentiment_data["details"]}
-                )
-                msg = (
-                    f"Сигнал по {symbol} на основі новин: {signal['action'].upper()} "
-                    f"(sentiment: {sentiment_score:.2f}, mentions: {sentiment_data['mentions']})\n"
-                    f"Деталі: {signal['meta'].get('news_details', [])[:1]}"
-                )
-                try:
-                    await notifier.send_message(msg)
-                except Exception as e:
-                    logger.error(f"Не вдалося надіслати сигнал у Telegram: {e}")
-
-            # 4. (Опціонально) Генерація сигналів за ринковими даними
-            # market_data_list = ... (отримуйте дані з біржі)
-            # for market_data in market_data_list:
-            #     signal = signal_generator.generate_signal(market_data)
-            #     await notifier.send_message(...)
-
-        except Exception as exc:
-            logger.error(f"Помилка в основному циклі: {exc}")
-
-        # Затримка між ітераціями (наприклад, 5 хвилин)
-        await asyncio.sleep(300)
+            news = await news_scraper.fetch_news(limit=NEWS_LIMIT)
+            results = sentiment_analyzer.analyze_news(news)
+            sent_count = 0
+            for symbol, data in results.items():
+                if data["sentiment"] >= SENTIMENT_THRESHOLD:
+                    msg = (
+                        f"⚡️ Сигнал по {symbol}!\n"
+                        f"Sentiment: {data['sentiment']:.2f}\n"
+                        f"Згадок у новинах: {data['mentions']}\n"
+                        f"Остання новина: {data['details'][-1]['title'] if data['details'] else '---'}\n"
+                        f"Джерело: {data['details'][-1]['url'] if data['details'] else '---'}"
+                    )
+                    await telegram.send_message(msg)
+                    sent_count += 1
+            logger.info(f"Відправлено {sent_count} сигнал(ів) у Telegram.")
+        except Exception as e:
+            logger.error(f"Помилка в основному циклі: {e}", exc_info=True)
+        await asyncio.sleep(NEWS_INTERVAL_SECONDS)
 
 if __name__ == "__main__":
     asyncio.run(main())

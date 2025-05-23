@@ -1,0 +1,1902 @@
+2025-05-21 14:29:10,797 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 14:34:12,045 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 14:39:13,294 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 14:44:14,359 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 14:49:15,493 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 14:49:15,494 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.364)
+2025-05-21 14:49:15,639 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 14:49:15,640 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 14:54:16,851 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 14:59:17,941 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:04:22,110 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:09:23,195 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:09:23,196 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:09:23,335 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:09:23,336 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:14:24,474 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:14:24,476 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.273)
+2025-05-21 15:14:24,665 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:14:24,666 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:20:00,609 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:20:00,610 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:20:00,727 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:20:00,728 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:25:01,947 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:25:01,948 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:25:02,092 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:25:02,093 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:30:03,327 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:30:03,328 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:30:03,438 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:30:03,440 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:35:05,047 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:35:05,048 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:35:05,242 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:35:05,243 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:40:06,385 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:40:06,386 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:40:06,520 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:40:06,521 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:45:08,047 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:45:08,047 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:45:08,177 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:45:08,178 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:50:09,275 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:50:09,275 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:50:09,393 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:50:09,394 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 15:55:10,463 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 15:55:10,464 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 15:55:10,603 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 15:55:10,604 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:00:11,742 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:00:11,742 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 16:00:11,885 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:00:11,886 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:05:13,242 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:05:13,244 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 16:05:13,375 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:05:13,376 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:10:14,546 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:10:14,547 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 16:10:14,685 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:10:14,686 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:15:15,963 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:15:15,965 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:15:16,131 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:15:16,132 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:15:16,132 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:15:16,279 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:15:16,280 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:20:17,555 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:20:17,558 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:20:17,702 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:20:17,703 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:20:17,703 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:20:17,770 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:20:17,771 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:25:25,003 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:25:25,006 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:25:25,127 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:25:25,128 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:25:25,128 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:25:25,178 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:25:25,179 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:30:26,532 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:30:26,535 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:30:26,647 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:30:26,648 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:30:26,648 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:30:26,705 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:30:26,706 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:35:27,862 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:35:27,866 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:35:27,985 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:35:27,986 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:35:27,986 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:35:28,060 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:35:28,061 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:40:29,104 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:40:29,108 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:40:29,310 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:40:29,311 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:40:29,311 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:40:29,431 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:40:29,432 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:45:30,466 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:45:30,468 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:45:30,613 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:45:30,614 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:45:30,614 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:45:30,699 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:45:30,700 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:51:02,711 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:51:02,713 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.099)
+2025-05-21 16:51:02,845 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:51:02,846 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:51:02,846 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:51:02,900 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:51:02,901 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:56:04,059 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 16:56:04,062 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.484)
+2025-05-21 16:56:04,178 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:56:04,179 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 16:56:04,179 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 16:56:04,229 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 16:56:04,231 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:01:05,850 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:01:05,853 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.484)
+2025-05-21 17:01:05,972 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:01:05,973 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:01:05,973 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:01:06,040 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:01:06,040 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:06:07,087 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:06:07,090 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.484)
+2025-05-21 17:06:07,328 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:06:07,329 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:06:07,329 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:06:07,433 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:06:07,434 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:11:08,580 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:11:08,583 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:11:08,695 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:11:08,696 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:11:08,696 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:11:08,748 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:11:08,749 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:16:10,096 [WARNING] BotMain: RSS HTTP error 504 for https://bitcoinmagazine.com/.rss/full/
+2025-05-21 17:16:10,097 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:16:10,100 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:16:10,271 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:16:10,272 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:16:10,272 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:16:10,362 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:16:10,363 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:21:11,438 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:21:11,441 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:21:11,562 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:21:11,563 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:21:11,563 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:21:11,621 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:21:11,621 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:26:12,815 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:26:12,818 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:26:12,967 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:26:12,968 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:26:12,968 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:26:13,037 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:26:13,038 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:31:14,227 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:31:14,231 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.008)
+2025-05-21 17:31:14,423 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:31:14,424 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:31:14,424 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:31:14,548 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:31:14,549 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:36:32,220 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:36:32,223 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.008)
+2025-05-21 17:36:32,356 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:36:32,357 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:36:32,357 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:36:32,402 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:36:32,403 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:41:33,499 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:41:33,503 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.008)
+2025-05-21 17:41:33,643 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:41:33,644 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:41:33,644 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:41:33,699 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:41:33,699 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:46:34,807 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:46:34,810 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:46:34,951 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:46:34,952 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:46:34,952 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:46:34,998 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:46:34,999 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:51:36,082 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:51:36,085 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:51:36,213 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:51:36,214 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:51:36,214 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:51:36,285 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:51:36,286 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:56:37,692 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 17:56:37,696 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 17:56:37,826 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:56:37,827 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 17:56:37,827 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 17:56:37,876 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 17:56:37,877 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:01:39,493 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:01:39,496 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:01:39,616 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:01:39,617 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:01:39,617 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:01:39,677 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:01:39,677 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:06:40,900 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:06:40,903 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:06:41,040 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:06:41,040 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:06:41,040 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:06:41,144 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:06:41,145 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:11:42,398 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:11:42,401 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.013)
+2025-05-21 18:11:42,508 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:11:42,508 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:11:42,509 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:11:42,573 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:11:42,574 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:16:43,793 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:16:43,796 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.013)
+2025-05-21 18:16:43,976 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:16:43,977 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:16:43,977 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:16:44,078 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:16:44,079 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:21:45,157 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:21:45,160 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:21:45,366 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:21:45,367 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:21:45,367 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:21:45,518 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:21:45,519 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:26:46,674 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:26:46,677 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:26:46,837 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:26:46,838 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:26:46,838 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:26:46,893 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:26:46,894 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:31:48,201 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:31:48,204 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:31:48,452 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:31:48,453 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:31:48,453 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:31:48,571 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:31:48,571 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:36:49,974 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:36:49,977 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:36:50,133 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:36:50,134 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:36:50,134 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:36:50,182 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:36:50,183 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:41:51,311 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:41:51,314 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:41:51,488 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:41:51,488 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:41:51,489 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:41:51,575 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:41:51,576 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:46:52,730 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:46:52,733 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:46:52,886 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:46:52,887 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:46:52,887 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:46:52,937 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:46:52,938 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:51:54,389 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:51:54,392 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.010)
+2025-05-21 18:51:54,497 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:51:54,498 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:51:54,498 [INFO] BotMain: News-based signal for ETHUSDT: sell (score=-1.649)
+2025-05-21 18:51:54,548 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:51:54,549 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 18:56:55,693 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 18:56:55,694 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.112)
+2025-05-21 18:56:55,806 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 18:56:55,807 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:01:57,050 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:01:57,052 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.112)
+2025-05-21 19:01:57,156 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:01:57,157 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:06:58,691 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:06:58,693 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.112)
+2025-05-21 19:06:58,838 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:06:58,839 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:11:59,852 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:11:59,853 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:11:59,956 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:11:59,957 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:17:01,277 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:17:01,279 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:17:01,399 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:17:01,400 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:22:02,481 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:22:02,482 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:22:02,657 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:22:02,658 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:27:03,773 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:27:03,775 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:27:03,904 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:27:03,905 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:32:05,150 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:32:05,152 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:32:05,272 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:32:05,273 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:37:06,420 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:37:06,421 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:37:06,568 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:37:06,569 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:42:07,662 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:42:07,663 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:42:07,787 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:42:07,788 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:47:08,998 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:47:09,000 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:47:09,110 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:47:09,111 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:52:10,292 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:52:10,293 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.680)
+2025-05-21 19:52:10,430 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:52:10,431 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 19:57:11,652 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 19:57:11,653 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 19:57:11,832 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 19:57:11,833 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:02:12,956 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:02:12,957 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 20:02:13,135 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:02:13,136 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:07:14,374 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:07:14,376 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.000)
+2025-05-21 20:07:14,542 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:07:14,543 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:12:15,786 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:12:15,787 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.453)
+2025-05-21 20:12:15,922 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:12:15,922 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:17:20,505 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:17:20,506 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.453)
+2025-05-21 20:17:20,633 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:17:20,634 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:22:21,723 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:22:21,725 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:22:21,867 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:22:21,869 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:27:23,072 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:27:23,074 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:27:23,245 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:27:23,246 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:32:24,726 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:32:24,728 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:32:24,940 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:32:24,941 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:37:26,011 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:37:26,013 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:37:26,236 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:37:26,237 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:42:27,321 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:42:27,322 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:42:27,445 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:42:27,445 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:47:28,422 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:47:28,423 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:47:28,594 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:47:28,595 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:52:29,557 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:52:29,559 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:52:29,663 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:52:29,664 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 20:57:30,736 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 20:57:30,737 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 20:57:30,836 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 20:57:30,837 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:02:31,924 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:02:31,925 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 21:02:32,091 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:02:32,092 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:07:33,264 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:07:33,265 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 21:07:33,385 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:07:33,386 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:12:34,560 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:12:34,562 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.518)
+2025-05-21 21:12:34,666 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:12:34,667 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:17:35,705 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:17:35,707 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:17:35,810 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:17:35,811 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:22:36,983 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:22:36,985 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:22:37,108 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:22:37,109 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:27:38,154 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:27:38,156 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:27:38,281 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:27:38,282 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:32:39,456 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:32:39,457 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:32:39,610 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:32:39,611 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:37:40,634 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:37:40,635 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:37:40,743 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:37:40,744 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:42:41,961 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:42:41,962 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:42:42,058 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:42:42,059 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:48:23,103 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:48:23,104 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:48:23,260 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:48:23,261 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:53:24,585 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:53:24,586 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:53:24,685 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:53:24,686 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 21:58:25,737 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 21:58:25,739 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 21:58:25,853 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 21:58:25,854 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:03:26,947 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:03:26,967 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:03:27,072 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:03:27,073 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:08:28,172 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:08:28,174 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:08:28,273 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:08:28,274 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:13:29,480 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:13:29,481 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.237)
+2025-05-21 22:13:29,597 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:13:29,598 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:18:30,664 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:18:30,665 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:18:30,776 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:18:30,777 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:23:32,010 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:23:32,011 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:23:32,129 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:23:32,130 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:28:33,294 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:28:33,295 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:28:33,392 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:28:33,393 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:33:34,413 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:33:34,415 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:33:34,514 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:33:34,515 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:38:35,740 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:38:35,741 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:38:35,839 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:38:35,839 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:43:37,045 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:43:37,046 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:43:37,148 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:43:37,149 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:48:38,200 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:48:38,201 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.356)
+2025-05-21 22:48:38,325 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:48:38,326 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:53:39,770 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:53:39,772 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.873)
+2025-05-21 22:53:39,907 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:53:39,908 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 22:58:40,844 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 22:58:40,846 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.873)
+2025-05-21 22:58:40,949 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 22:58:40,949 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:03:42,224 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:03:42,226 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.873)
+2025-05-21 23:03:42,339 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:03:42,340 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:08:43,505 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:08:43,507 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.873)
+2025-05-21 23:08:43,628 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:08:43,629 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:13:44,891 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:13:44,894 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.873)
+2025-05-21 23:13:45,016 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:13:45,017 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:18:46,089 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:18:46,091 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.873)
+2025-05-21 23:18:46,207 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:18:46,208 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:23:47,405 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:23:47,407 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:23:47,525 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:23:47,526 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:28:49,037 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:28:49,038 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:28:49,155 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:28:49,156 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:33:50,233 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:33:50,235 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:33:50,331 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:33:50,332 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:38:51,539 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:38:51,541 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:38:51,689 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:38:51,690 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:43:52,738 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:43:52,739 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:43:52,861 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:43:52,862 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:48:54,383 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:48:54,385 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:48:54,500 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:48:54,501 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:53:55,531 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:53:55,533 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:53:55,660 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:53:55,661 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-21 23:58:56,700 [INFO] BotMain: Fetched 50 news items in total
+2025-05-21 23:58:56,701 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-21 23:58:56,816 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-21 23:58:56,817 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:03:58,095 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:03:58,096 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-22 00:03:58,216 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:03:58,217 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:08:59,530 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:08:59,531 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-22 00:08:59,712 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:08:59,713 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:14:00,736 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:14:00,738 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.953)
+2025-05-22 00:14:00,862 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:14:00,863 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:19:02,040 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:19:02,043 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:19:02,152 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:19:02,153 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:24:03,351 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:24:03,353 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:24:03,471 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:24:03,473 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:29:04,649 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:29:04,651 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:29:04,767 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:29:04,768 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:34:05,950 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:34:05,951 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:34:06,045 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:34:06,045 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:39:07,078 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:39:07,080 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:39:07,200 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:39:07,200 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:44:08,221 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:44:08,223 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:44:08,332 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:44:08,333 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:49:09,349 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:49:09,350 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:49:09,467 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:49:09,468 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:54:10,463 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:54:10,465 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:54:10,572 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:54:10,573 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 00:59:11,678 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 00:59:11,680 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 00:59:11,849 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 00:59:11,850 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:04:13,036 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:04:13,038 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:04:13,165 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:04:13,165 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:09:14,188 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:09:14,190 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:09:14,348 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:09:14,349 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:14:15,523 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:14:15,525 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:14:15,642 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:14:15,643 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:19:16,657 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:19:16,658 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:19:16,780 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:19:16,781 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:24:17,815 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:24:17,816 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:24:17,932 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:24:17,933 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:29:18,966 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:29:18,967 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:29:19,103 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:29:19,104 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:34:20,312 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:34:20,313 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:34:20,415 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:34:20,416 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:39:21,563 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:39:21,565 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:39:21,682 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:39:21,683 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:44:22,684 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:44:22,685 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:44:22,803 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:44:22,804 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:49:24,350 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:49:24,351 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.907)
+2025-05-22 01:49:24,477 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 01:49:24,478 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 01:54:25,891 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 01:59:27,056 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:04:28,222 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:09:29,412 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:14:30,451 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:19:31,478 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:24:32,846 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:29:34,052 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:34:35,121 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:39:36,631 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:44:37,851 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:49:38,925 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:54:40,425 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 02:59:41,527 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:04:42,811 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:09:43,958 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:14:45,131 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:19:46,283 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:24:47,452 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:29:48,633 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:34:49,837 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:39:50,863 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:44:51,993 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:49:53,418 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:54:54,864 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 03:59:55,883 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:04:56,925 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:09:58,073 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:09:58,076 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.809)
+2025-05-22 04:09:58,223 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:09:58,224 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:14:59,422 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:14:59,422 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.809)
+2025-05-22 04:14:59,544 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:14:59,545 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:20:00,605 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:20:00,605 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.809)
+2025-05-22 04:20:00,727 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:20:00,728 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:25:01,777 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:25:01,778 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.809)
+2025-05-22 04:25:01,906 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:25:01,907 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:30:02,877 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:30:02,878 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.809)
+2025-05-22 04:30:03,107 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:30:03,108 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:35:04,257 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:35:04,258 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.809)
+2025-05-22 04:35:04,357 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:35:04,358 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:40:05,371 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:40:05,372 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 04:40:05,473 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:40:05,474 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:45:06,661 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:45:06,663 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 04:45:06,767 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:45:06,768 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:50:08,072 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:50:08,073 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 04:50:08,180 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:50:08,181 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 04:55:09,348 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 04:55:09,349 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 04:55:09,472 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 04:55:09,473 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:00:10,678 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:00:10,679 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 05:00:10,854 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:00:10,855 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:05:11,879 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:05:11,881 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 05:05:11,994 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:05:11,995 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:10:13,206 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:10:13,208 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 05:10:13,326 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:10:13,327 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:15:14,496 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:15:14,498 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.049)
+2025-05-22 05:15:14,619 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:15:14,620 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:20:16,157 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:20:16,158 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:20:16,280 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:20:16,281 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:25:17,306 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:25:17,308 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:25:17,430 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:25:17,431 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:30:18,602 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:30:18,604 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:30:18,708 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:30:18,709 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:35:20,221 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:35:20,222 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:35:20,344 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:35:20,345 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:40:21,524 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:40:21,525 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:40:21,649 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:40:21,650 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:45:22,733 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:45:22,735 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:45:22,835 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:45:22,836 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:50:23,863 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:50:23,865 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:50:23,983 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:50:23,984 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 05:55:25,011 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 05:55:25,013 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 05:55:25,205 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 05:55:25,206 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:00:26,363 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:00:26,365 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 06:00:26,515 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:00:26,515 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:05:27,664 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:05:27,666 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 06:05:27,764 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:05:27,765 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:10:29,060 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:10:29,061 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 06:10:29,187 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:10:29,188 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:15:30,642 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:15:30,645 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 06:15:35,678 [ERROR] TelegramNotifier: Telegram send error: Timed out
+2025-05-22 06:15:35,678 [ERROR] BotMain: Не вдалося надіслати сигнал у Telegram: Timed out
+2025-05-22 06:20:36,863 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:20:36,865 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.432)
+2025-05-22 06:20:36,993 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:20:36,994 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:25:38,014 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:25:38,016 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=0.136)
+2025-05-22 06:25:38,157 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:25:38,158 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:30:39,236 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:30:39,238 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 06:30:39,363 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:30:39,364 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:35:40,592 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:35:40,594 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.567)
+2025-05-22 06:35:40,706 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:35:40,707 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:40:41,887 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:40:41,889 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 06:40:42,024 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:40:42,025 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:45:43,212 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:45:43,214 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 06:45:43,339 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:45:43,340 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:50:44,590 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:50:44,592 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 06:50:44,694 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:50:44,695 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 06:55:46,206 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 06:55:46,208 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 06:55:46,408 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 06:55:46,409 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:00:47,368 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:00:47,370 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 07:00:47,522 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:00:47,523 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:05:48,633 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:05:48,636 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.357)
+2025-05-22 07:05:48,778 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:05:48,779 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:10:49,799 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:10:49,801 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.519)
+2025-05-22 07:10:49,941 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:10:49,942 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:15:51,188 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:15:51,190 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.206)
+2025-05-22 07:15:51,328 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:15:51,329 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:20:52,532 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:20:52,534 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.738)
+2025-05-22 07:20:52,691 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:20:52,692 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:25:53,859 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:25:53,860 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.206)
+2025-05-22 07:25:53,989 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:25:53,990 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:30:55,191 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:30:55,192 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.206)
+2025-05-22 07:30:55,309 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:30:55,310 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:35:56,474 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:35:56,476 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.206)
+2025-05-22 07:35:56,606 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:35:56,607 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:40:57,866 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:40:57,867 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 07:40:57,986 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:40:57,987 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:45:59,038 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:45:59,040 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 07:45:59,166 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:45:59,167 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:51:00,306 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:51:00,308 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 07:51:00,447 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:51:00,448 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 07:56:02,007 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 07:56:02,008 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 07:56:02,117 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 07:56:02,118 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:01:03,313 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:01:03,314 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 08:01:03,484 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:01:03,484 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:06:04,676 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:06:04,678 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 08:06:04,811 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:06:04,812 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:11:06,035 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:11:06,036 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 08:11:06,168 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:11:06,168 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:16:07,353 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:16:07,354 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.763)
+2025-05-22 08:16:07,505 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:16:07,506 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:21:08,679 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:21:08,680 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:21:08,837 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:21:08,837 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:26:09,896 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:26:09,897 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:26:10,039 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:26:10,040 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:31:11,195 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:31:11,196 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:31:11,327 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:31:11,328 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:36:12,423 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:36:12,424 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:36:12,559 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:36:12,560 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:41:13,537 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:41:13,538 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:41:13,664 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:41:13,665 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:46:14,853 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:46:14,854 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:46:14,978 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:46:14,979 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:51:16,245 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:51:16,246 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:51:16,355 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:51:16,356 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 08:56:17,425 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 08:56:17,425 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 08:56:17,642 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 08:56:17,643 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:01:18,682 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:01:18,683 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.519)
+2025-05-22 09:01:18,805 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 09:01:18,806 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:06:19,859 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:06:19,860 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 09:06:19,961 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 09:06:19,962 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:11:21,193 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:11:21,194 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 09:11:21,410 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 09:11:21,411 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:16:22,527 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:16:22,528 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 09:16:22,650 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 09:16:22,650 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:21:24,198 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:21:24,199 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 09:21:24,316 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 09:21:24,317 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:26:25,495 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:26:25,496 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.723)
+2025-05-22 09:26:25,605 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 09:26:25,606 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 09:31:26,673 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:36:28,239 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:41:29,487 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:46:30,932 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:51:32,015 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 09:56:33,549 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:01:34,634 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:06:35,693 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:11:36,987 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:16:38,087 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:21:39,447 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:26:40,648 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:31:42,383 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:36:43,434 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:41:44,505 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:46:45,852 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:51:47,081 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 10:56:48,146 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:01:49,167 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:01:49,169 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:01:49,314 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:01:49,315 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:06:50,516 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:06:50,517 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:06:50,641 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:06:50,642 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:11:51,788 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:11:51,790 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.257)
+2025-05-22 11:11:51,925 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:11:51,926 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:16:52,891 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:16:52,892 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:16:53,040 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:16:53,041 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:21:54,227 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:21:54,228 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:21:54,356 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:21:54,357 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:26:55,572 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:26:55,574 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.171)
+2025-05-22 11:26:55,697 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:26:55,698 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:31:56,917 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:31:56,918 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:31:57,052 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:31:57,053 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:36:58,196 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:36:58,197 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:36:58,309 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:36:58,310 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:41:59,354 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:41:59,355 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:41:59,490 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:41:59,490 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:47:00,564 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:47:00,565 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:47:00,706 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:47:00,707 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:52:01,790 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:52:01,791 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:52:01,915 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:52:01,916 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 11:57:03,170 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 11:57:03,171 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 11:57:03,281 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 11:57:03,282 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:02:04,653 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:02:04,655 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.171)
+2025-05-22 12:02:04,781 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:02:04,782 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:07:05,850 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:07:05,851 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:07:05,971 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:07:05,972 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:12:07,099 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:12:07,101 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:12:07,261 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:12:07,262 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:17:08,381 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:17:08,382 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:17:08,571 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:17:08,572 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:22:09,690 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:22:09,691 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:22:09,823 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:22:09,824 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:27:10,957 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:27:10,958 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:27:11,071 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:27:11,071 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:32:12,221 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:32:12,222 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:32:12,378 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:32:12,379 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:37:13,703 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:37:13,704 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:37:13,830 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:37:13,831 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:42:15,216 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:42:15,217 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:42:15,359 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:42:15,360 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:47:16,565 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:47:16,566 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:47:16,678 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:47:16,679 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:52:17,705 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:52:17,708 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.174)
+2025-05-22 12:52:17,848 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:52:17,849 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 12:57:18,806 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 12:57:18,807 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 12:57:18,996 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 12:57:18,997 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:02:20,520 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:02:20,521 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:02:20,645 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:02:20,645 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:07:21,693 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:07:21,693 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:07:21,832 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:07:21,833 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:12:23,122 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:12:23,123 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:12:23,240 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:12:23,241 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:17:24,317 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:17:24,317 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:17:24,484 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:17:24,485 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:22:25,621 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:22:25,622 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:22:25,734 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:22:25,735 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:27:26,891 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:27:26,892 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:27:27,010 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:27:27,011 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:32:28,160 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:32:28,161 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:32:28,289 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:32:28,289 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:37:29,363 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:37:29,364 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:37:29,517 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:37:29,517 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:42:30,854 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:42:30,855 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:42:30,967 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:42:30,968 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:47:32,017 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:47:32,020 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.489)
+2025-05-22 13:47:32,144 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:47:32,145 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:52:33,752 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:52:33,753 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:52:33,867 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:52:33,867 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 13:57:34,953 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 13:57:34,954 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-3.422)
+2025-05-22 13:57:35,068 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 13:57:35,068 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:02:36,212 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:07:37,743 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:12:38,893 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:17:40,019 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:22:41,176 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:22:41,178 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.500)
+2025-05-22 14:22:41,312 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:22:41,313 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:27:42,415 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:27:42,416 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.500)
+2025-05-22 14:27:42,541 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:27:42,542 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:32:43,669 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:32:43,670 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.500)
+2025-05-22 14:32:43,886 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:32:43,886 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:37:44,915 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:37:44,916 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.500)
+2025-05-22 14:37:45,113 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:37:45,114 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:42:46,177 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:42:46,178 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.500)
+2025-05-22 14:42:46,402 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:42:46,403 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:47:47,441 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:47:47,444 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.065)
+2025-05-22 14:47:47,578 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:47:47,579 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:52:49,163 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:52:49,164 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=2.500)
+2025-05-22 14:52:49,332 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:52:49,333 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 14:57:50,508 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 14:57:50,509 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 14:57:50,639 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 14:57:50,640 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:02:51,851 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:02:51,854 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.852)
+2025-05-22 15:02:51,992 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:02:51,993 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:07:53,309 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:07:53,310 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:07:53,418 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:07:53,419 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:13:03,903 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:13:03,905 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:13:04,066 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:13:04,067 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:18:05,268 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:18:05,269 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:18:05,393 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:18:05,394 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:23:06,526 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:23:06,527 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:23:06,635 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:23:06,636 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:28:08,209 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:28:08,210 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:28:08,543 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:28:08,544 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:33:09,602 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:33:09,603 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:33:09,743 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:33:09,744 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:38:11,351 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:38:11,352 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:38:11,478 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:38:11,479 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:43:12,833 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:43:12,834 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:43:12,934 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:43:12,935 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:48:14,111 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:48:14,112 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:48:14,218 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:48:14,219 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:53:15,236 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:53:15,238 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.250)
+2025-05-22 15:53:15,423 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:53:15,424 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 15:58:16,488 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 15:58:16,492 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 15:58:16,659 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 15:58:16,660 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:03:17,807 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:03:17,811 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:03:17,962 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:03:17,963 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:08:19,034 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:08:19,039 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:08:19,198 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:08:19,198 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:13:20,376 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:13:20,380 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:13:20,506 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:13:20,507 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:18:44,898 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:18:44,902 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:18:45,049 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:18:45,050 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:23:46,247 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:23:46,252 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:23:46,375 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:23:46,376 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:28:47,443 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:28:47,448 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:28:47,652 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:28:47,652 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:33:48,776 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:33:48,779 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:33:48,911 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:33:48,912 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:38:49,967 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:38:49,971 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:38:50,106 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:38:50,107 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:43:51,496 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:43:51,499 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:43:51,631 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:43:51,632 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:48:53,263 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:48:53,267 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:48:53,503 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:48:53,504 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:54:20,731 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:54:20,735 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:54:20,867 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:54:20,868 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 16:59:21,948 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 16:59:21,952 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.033)
+2025-05-22 16:59:22,081 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 16:59:22,082 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:04:23,335 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:04:23,339 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.582)
+2025-05-22 17:04:23,567 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:04:23,568 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:09:24,792 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:09:24,797 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.582)
+2025-05-22 17:09:24,911 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:09:24,912 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:14:26,012 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:14:26,016 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.582)
+2025-05-22 17:14:26,224 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:14:26,225 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:19:27,472 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:19:27,477 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.582)
+2025-05-22 17:19:27,602 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:19:27,603 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:24:28,779 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:24:28,783 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.610)
+2025-05-22 17:24:28,906 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:24:28,908 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:29:30,014 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:29:30,018 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.610)
+2025-05-22 17:29:30,174 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:29:30,175 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:34:31,329 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:34:31,332 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.610)
+2025-05-22 17:34:31,457 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:34:31,458 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:39:32,939 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:39:32,944 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.610)
+2025-05-22 17:39:33,123 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:39:33,124 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:44:34,509 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:44:34,513 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 17:44:34,674 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:44:34,675 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:49:35,861 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:49:35,864 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 17:49:36,053 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:49:36,054 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:54:37,418 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:54:37,422 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 17:54:37,581 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:54:37,582 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 17:59:38,708 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 17:59:38,712 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 17:59:38,825 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 17:59:38,826 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:04:39,937 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:04:39,940 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 18:04:40,089 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:04:40,090 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:09:41,210 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:09:41,214 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 18:09:41,381 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:09:41,381 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:14:43,028 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:14:43,031 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 18:14:43,243 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:14:43,244 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:19:44,361 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:19:44,365 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-2.415)
+2025-05-22 18:19:44,493 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:19:44,495 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:24:46,050 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:24:46,053 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.048)
+2025-05-22 18:24:46,153 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:24:46,154 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:29:47,148 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:29:47,152 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.048)
+2025-05-22 18:29:47,280 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:29:47,281 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:34:48,522 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:34:48,525 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-1.048)
+2025-05-22 18:34:48,633 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:34:48,634 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:39:49,689 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:39:49,691 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.272)
+2025-05-22 18:39:49,814 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:39:49,815 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:44:50,969 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:44:50,971 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.272)
+2025-05-22 18:44:51,172 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:44:51,173 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:49:52,198 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:49:52,200 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 18:49:52,325 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:49:52,326 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:49:52,326 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 18:49:52,373 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:49:52,374 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:54:53,449 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:54:53,451 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 18:54:53,710 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:54:53,711 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:54:53,711 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 18:54:53,825 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:54:53,826 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:59:54,991 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 18:59:54,993 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 18:59:55,192 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:59:55,193 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 18:59:55,193 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 18:59:55,325 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 18:59:55,325 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:04:56,929 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:04:56,931 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:04:57,060 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:04:57,061 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:04:57,061 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:04:57,108 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:04:57,109 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:09:58,531 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:09:58,533 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:09:58,684 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:09:58,685 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:09:58,685 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:09:58,745 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:09:58,746 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:14:59,849 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:14:59,850 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:15:00,053 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:15:00,054 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:15:00,054 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:15:00,183 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:15:00,184 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:20:01,868 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:20:01,870 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:20:01,988 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:20:01,989 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:20:01,989 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:20:02,047 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:20:02,047 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:25:03,151 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:25:03,152 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:25:03,494 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:25:03,495 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:25:03,495 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:25:03,681 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:25:03,682 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:30:04,900 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:30:04,901 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:30:05,060 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:30:05,061 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:30:05,061 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:30:05,160 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:30:05,161 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:35:06,563 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:35:06,564 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:35:06,705 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:35:06,706 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:35:06,706 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:35:06,786 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:35:06,787 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:40:07,867 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:40:07,869 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:40:07,983 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:40:07,984 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:40:07,984 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:40:08,044 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:40:08,045 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:45:09,053 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:45:09,055 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:45:09,194 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:45:09,195 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:45:09,195 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:45:09,242 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:45:09,242 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:50:10,563 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:50:10,565 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:50:10,693 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:50:10,694 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:50:10,694 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:50:10,749 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:50:10,750 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:55:11,849 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 19:55:11,850 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 19:55:11,946 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:55:11,947 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 19:55:11,947 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 19:55:11,988 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 19:55:11,989 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:00:13,238 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:00:13,240 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.381)
+2025-05-22 20:00:13,347 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:00:13,348 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:00:13,348 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:00:13,389 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:00:13,390 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:05:14,569 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:05:14,571 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.686)
+2025-05-22 20:05:14,691 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:05:14,692 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:05:14,692 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:05:14,752 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:05:14,753 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:10:15,808 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:10:15,809 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.686)
+2025-05-22 20:10:15,912 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:10:15,913 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:10:15,913 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:10:15,958 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:10:15,959 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:15:17,008 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:15:17,011 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.686)
+2025-05-22 20:15:17,146 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:15:17,147 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:15:17,148 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:15:17,222 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:15:17,222 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:20:18,386 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:20:18,388 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.686)
+2025-05-22 20:20:18,546 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:20:18,547 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:20:18,547 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:20:18,655 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:20:18,656 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:25:19,929 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:25:19,930 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.686)
+2025-05-22 20:25:20,058 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:25:20,059 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:25:20,060 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:25:20,104 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:25:20,105 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:30:21,151 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:30:21,153 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.686)
+2025-05-22 20:30:21,257 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:30:21,258 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:30:21,258 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:30:21,303 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:30:21,304 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:35:22,480 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:35:22,483 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 20:35:22,621 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:35:22,621 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:35:22,622 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:35:22,687 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:35:22,688 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:40:23,858 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:40:23,861 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 20:40:23,969 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:40:23,970 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:40:23,970 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:40:24,025 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:40:24,026 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:45:25,154 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:45:25,156 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 20:45:25,285 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:45:25,285 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:45:25,286 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:45:25,329 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:45:25,329 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:50:26,371 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:50:26,373 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 20:50:26,515 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:50:26,516 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:50:26,516 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:50:26,577 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:50:26,578 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:55:27,783 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 20:55:27,785 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 20:55:28,043 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:55:28,044 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 20:55:28,044 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 20:55:28,176 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 20:55:28,176 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:00:29,122 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:00:29,124 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 21:00:29,228 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:00:29,229 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:00:29,229 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:00:29,278 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:00:29,279 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:05:30,499 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:05:30,501 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 21:05:30,599 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:05:30,600 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:05:30,600 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:05:30,642 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:05:30,643 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:10:32,170 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:10:32,172 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 21:10:32,293 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:10:32,294 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:10:32,294 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:10:32,339 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:10:32,340 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:15:33,796 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:15:33,798 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 21:15:33,909 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:15:33,910 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:15:33,910 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:15:33,966 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:15:33,967 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:20:34,943 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:20:34,945 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.736)
+2025-05-22 21:20:35,056 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:20:35,057 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:20:35,057 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:20:35,097 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:20:35,098 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:25:36,181 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:25:36,183 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.761)
+2025-05-22 21:25:36,288 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:25:36,289 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:25:36,289 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:25:36,350 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:25:36,351 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:30:37,367 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:30:37,369 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.761)
+2025-05-22 21:30:37,521 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:30:37,522 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:30:37,522 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:30:37,597 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:30:37,598 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:35:38,798 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:35:38,799 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.761)
+2025-05-22 21:35:38,903 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:35:38,903 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:35:38,904 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:35:38,959 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:35:38,960 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:40:40,022 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:40:40,024 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.761)
+2025-05-22 21:40:40,137 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:40:40,138 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:40:40,138 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:40:40,183 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:40:40,184 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:45:41,674 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:45:41,676 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.761)
+2025-05-22 21:45:41,776 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:45:41,777 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:45:41,778 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.686)
+2025-05-22 21:45:41,819 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:45:41,820 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:50:42,878 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:50:42,879 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 21:50:42,994 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:50:42,995 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 21:55:44,501 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 21:55:44,503 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 21:55:44,638 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 21:55:44,639 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:00:45,695 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:00:45,696 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:00:45,860 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:00:45,861 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:05:46,907 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:05:46,908 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:05:47,087 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:05:47,088 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:10:48,462 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:10:48,463 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:10:48,559 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:10:48,560 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:15:50,091 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:15:50,093 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:15:50,187 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:15:50,188 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:20:51,204 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:20:51,205 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:20:51,320 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:20:51,321 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:25:52,363 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:25:52,365 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:25:52,469 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:25:52,469 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:30:53,528 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:30:53,530 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:30:53,641 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:30:53,642 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:35:54,706 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:35:54,707 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:35:54,807 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:35:54,808 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:40:55,843 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:40:55,844 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:40:55,997 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:40:55,997 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:45:57,071 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:45:57,073 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:45:57,200 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:45:57,200 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:50:58,659 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:50:58,660 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:50:58,777 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:50:58,779 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 22:55:59,872 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 22:55:59,873 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 22:55:59,990 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 22:55:59,991 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:01:01,188 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:01:01,190 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 23:01:01,288 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:01:01,289 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:06:02,328 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:06:02,330 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:06:02,451 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:06:02,451 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:06:02,451 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 23:06:02,491 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:06:02,492 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:11:03,668 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:11:03,670 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:11:03,889 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:11:03,890 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:11:03,890 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.939)
+2025-05-22 23:11:04,153 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:11:04,154 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:16:05,177 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:16:05,179 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.224)
+2025-05-22 23:16:05,278 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:16:05,279 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:16:05,279 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:16:05,317 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:16:05,318 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:21:06,366 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:21:06,368 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.224)
+2025-05-22 23:21:06,494 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:21:06,495 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:21:06,495 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:21:06,544 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:21:06,544 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:26:07,698 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:26:07,700 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=1.224)
+2025-05-22 23:26:07,827 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:26:07,828 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:26:07,828 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:26:07,884 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:26:07,885 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:31:08,946 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:31:08,948 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-22 23:31:09,070 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:31:09,071 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:31:09,071 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:31:09,109 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:31:09,110 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:36:10,198 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:36:10,199 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-22 23:36:10,320 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:36:10,321 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:36:10,321 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:36:10,374 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:36:10,375 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:41:11,409 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:41:11,410 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-22 23:41:11,513 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:41:11,514 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:41:11,514 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:41:11,558 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:41:11,559 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:46:12,755 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:46:12,756 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-22 23:46:12,855 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:46:12,856 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:46:12,856 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:46:12,896 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:46:12,897 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:51:13,934 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:51:13,935 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-22 23:51:14,054 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:51:14,055 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:51:14,055 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:51:14,096 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:51:14,096 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:56:15,122 [INFO] BotMain: Fetched 50 news items in total
+2025-05-22 23:56:15,124 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-22 23:56:15,231 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:56:15,232 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-22 23:56:15,232 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-22 23:56:15,274 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-22 23:56:15,274 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:01:16,554 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:01:16,556 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:01:16,658 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:01:16,659 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:01:16,659 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:01:16,723 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:01:16,724 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:06:18,017 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:06:18,019 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:06:18,175 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:06:18,176 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:06:18,176 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:06:18,243 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:06:18,244 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:11:19,321 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:11:19,322 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:11:19,441 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:11:19,441 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:11:19,441 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:11:19,490 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:11:19,490 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:16:20,592 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:16:20,594 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:16:20,690 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:16:20,691 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:16:20,691 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:16:20,739 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:16:20,740 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:21:21,706 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:21:21,708 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:21:21,813 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:21:21,814 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:21:21,814 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:21:21,858 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:21:21,859 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:26:22,899 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:26:22,900 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:26:23,008 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:26:23,009 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:26:23,009 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:26:23,049 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:26:23,050 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:31:24,118 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:31:24,119 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:31:24,222 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:31:24,223 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:31:24,223 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:31:24,274 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:31:24,275 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:36:25,304 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:36:25,305 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:36:25,426 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:36:25,427 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:36:25,427 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:36:25,472 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:36:25,472 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:41:26,512 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:41:26,514 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:41:26,612 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:41:26,613 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:41:26,613 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:41:26,657 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:41:26,658 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:46:27,691 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:46:27,693 [INFO] BotMain: News-based signal for BTCUSDT: buy (score=0.918)
+2025-05-23 00:46:27,830 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:46:27,831 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:46:27,831 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:46:27,874 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:46:27,875 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:51:28,840 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:51:28,841 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 00:51:28,941 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:51:28,942 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:51:28,942 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:51:28,985 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:51:28,986 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:56:30,089 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 00:56:30,091 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 00:56:30,190 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:56:30,191 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 00:56:30,191 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 00:56:30,230 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 00:56:30,231 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:01:31,719 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:01:31,720 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:01:31,845 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:01:31,846 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:01:31,846 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:01:31,890 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:01:31,891 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:06:32,927 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:06:32,928 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:06:33,106 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:06:33,107 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:06:33,107 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:06:33,162 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:06:33,163 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:11:34,151 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:11:34,152 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:11:34,273 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:11:34,274 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:11:34,274 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:11:34,313 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:11:34,314 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:16:35,908 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:16:35,909 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:16:36,034 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:16:36,035 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:16:36,035 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:16:36,077 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:16:36,078 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:21:37,194 [WARNING] BotMain: RSS HTTP error 502 for https://bitcoinmagazine.com/.rss/full/
+2025-05-23 01:21:37,195 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:21:37,196 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:21:37,293 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:21:37,294 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:21:37,294 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:21:37,333 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:21:37,334 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:26:38,441 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:26:38,443 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:26:38,561 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:26:38,562 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:26:38,562 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:26:38,607 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:26:38,608 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:31:39,638 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:31:39,639 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:31:39,764 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:31:39,765 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:31:39,765 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:31:39,808 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:31:39,809 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:36:41,027 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:36:41,028 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:36:41,153 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:36:41,154 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:36:41,154 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:36:41,197 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:36:41,198 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:41:42,189 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:41:42,190 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:41:42,289 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:41:42,290 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:41:42,290 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:41:42,330 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:41:42,331 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:46:43,348 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:46:43,349 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:46:43,453 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:46:43,454 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:46:43,454 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:46:43,495 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:46:43,496 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:51:44,736 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:51:44,737 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:51:44,833 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:51:44,834 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:51:44,834 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:51:44,874 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:51:44,875 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:56:45,897 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 01:56:45,898 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 01:56:46,020 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:56:46,020 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 01:56:46,021 [INFO] BotMain: News-based signal for ETHUSDT: buy (score=1.835)
+2025-05-23 01:56:46,063 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 01:56:46,064 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 02:01:47,523 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:01:47,524 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 02:01:47,618 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 02:01:47,619 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 02:06:48,692 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:06:48,692 [INFO] BotMain: News-based signal for BTCUSDT: sell (score=-0.206)
+2025-05-23 02:06:48,809 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7892834394:AAEIOWi7l3WXp5N5lEctxEtVwfCbTeKl50M/sendMessage "HTTP/1.1 200 OK"
+2025-05-23 02:06:48,810 [INFO] TelegramNotifier: Telegram: повідомлення надіслано (async)
+2025-05-23 02:11:49,815 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:16:50,997 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:21:52,039 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:26:53,092 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:31:54,094 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:36:55,147 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:41:56,112 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:46:57,290 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:51:58,561 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 02:56:59,761 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:02:00,962 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:07:01,993 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:12:03,027 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:17:04,462 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:22:05,413 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:27:06,462 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:32:07,410 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:37:08,358 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:42:09,408 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:47:10,609 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:52:11,795 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 03:57:13,069 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:02:14,099 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:07:15,243 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:12:16,449 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:17:17,466 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:22:18,640 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:27:19,664 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:32:20,708 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:37:21,745 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:42:22,838 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:47:23,874 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:52:25,105 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 04:57:26,307 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:02:27,514 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:07:28,555 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:12:29,517 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:17:30,888 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:22:32,056 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:27:33,258 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:32:34,298 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:37:35,369 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:42:36,905 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:47:37,966 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:52:39,195 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 05:57:40,239 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:02:41,693 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:07:42,751 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:12:44,264 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:17:45,373 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:22:46,567 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:27:48,090 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:32:49,288 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:37:50,780 [INFO] BotMain: Fetched 50 news items in total
+2025-05-23 06:42:51,965 [INFO] BotMain: Fetched 50 news items in total
